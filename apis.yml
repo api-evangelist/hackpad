@@ -1,7 +1,28 @@
 aid: hackpad
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hackpad.png
 name: Hackpad
-description: Hackpad is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hackpad was a web-based real-time collaborative wiki and document editor,
+  built on the open-source Etherpad codebase, that let teams write and edit
+  documents together simultaneously. It was acquired by Dropbox in April 2014
+  and its underlying platform was released as open source under the Apache 2.0
+  license at github.com/dropbox/hackpad. The hosted hackpad.com service was
+  wound down after Dropbox folded the team's work into Dropbox Paper, and the
+  public service was discontinued in 2017. This API Evangelist profile tracks
+  Hackpad as a historical, now-defunct portfolio company surfaced from the a16z
+  portfolio; there is no live production API surface remaining, and the durable
+  public artifact is the open-source repository.
 url: https://raw.githubusercontent.com/api-evangelist/hackpad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,35 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Collaboration
+- Documents
+- Wiki
+- Real-Time Editing
+- Productivity
+- Open Source
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hackpad-domain-security.yml
+- type: Website
+  url: https://hackpad.com
+- type: GitHubOrganization
+  url: https://github.com/dropbox/hackpad
+- type: SourceCode
+  url: https://github.com/dropbox/hackpad
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
