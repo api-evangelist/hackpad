@@ -44,6 +44,8 @@ tags:
 - Open Source
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/dropbox/hackpad/issues
 - type: DomainSecurity
   url: security/hackpad-domain-security.yml
 - type: Website
