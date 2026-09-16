@@ -41,7 +41,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Collaboration
@@ -50,6 +50,7 @@ tags:
 - Real-Time Editing
 - Productivity
 - Open-Source
+- Defunct
 tags_raw:
 - Company
 - Collaboration
@@ -58,6 +59,7 @@ tags_raw:
 - Real-Time Editing
 - Productivity
 - Open Source
+- Defunct
 apis: []
 common:
 - type: IssueTracker
