@@ -1,6 +1,10 @@
 aid: hackpad
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: dropbox/hackpad
+    spdx: NOASSERTION
+    stars: 3581
   open_source: unknown
   commercial: false
   callable_host: false
@@ -8,7 +12,7 @@ deliveryModel:
   confidence: low
   source:
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -49,7 +53,7 @@ tags:
 - Wiki
 - Real-Time Editing
 - Productivity
-- Open-Source
+- Open Source
 - Defunct
 tags_raw:
 - Company
@@ -60,6 +64,7 @@ tags_raw:
 - Productivity
 - Open Source
 - Defunct
+- Open-Source
 apis: []
 common:
 - type: IssueTracker
